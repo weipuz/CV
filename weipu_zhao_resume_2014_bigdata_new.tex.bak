@@ -1,0 +1,392 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Plasmati Graduate CV
+% LaTeX Template
+% Version 1.0 (24/3/13)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Alessandro Plasmati (alessandro.plasmati@gmail.com)
+%
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+%
+% Important note:
+% This template needs to be compiled with XeLaTeX.
+% The main document font is called Fontin and can be downloaded for free
+% from here: http://www.exljbris.com/fontin.html
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[letterpaper,11pt]{article} % Default font size and paper size
+\usepackage{verbatim}
+\usepackage{fontspec} % For loading fonts
+\defaultfontfeatures{Mapping=tex-text}
+%\setmainfont[SmallCapsFont = Fontin SmallCaps]{Fontin} % Main document font
+\setmainfont{Arial}
+%\setmainfont{Corbel}
+%\setmainfont{Times New Roman}
+\usepackage{amsmath}%
+\usepackage{amssymb}
+\DeclareTextSymbolDefault{\textbullet}{OMS}
+\usepackage{xunicode,xltxtra,url,parskip} % Formatting packages
+
+\usepackage[usenames,dvipsnames]{xcolor} % Required for specifying custom colors
+
+%\usepackage[big]{layaureo} % Margin formatting of the A4 page, an alternative to layaureo can be \usepackage{fullpage}
+\usepackage[top=0.63in, bottom=0.63in, left=0.55in, right=0.55in]{geometry}
+%\usepackage{fullpage}
+% To reduce the height of the top margin uncomment: \addtolength{\voffset}{-1.3cm}
+%\addtolength{\textheight}{2cm}
+%\addtolength{\textwidth}{2cm}
+%\addtolength{\hoffset}{-1cm}
+%\addtolength{\voffset}{-1cm}
+\usepackage{hyperref} % Required for adding links	and customizing them
+\definecolor{linkcolour}{rgb}{0,0.2,0.6} % Link color
+\hypersetup{colorlinks,breaklinks,urlcolor=linkcolour,linkcolor=linkcolour} % Set link colors throughout the document
+
+\usepackage{titlesec} % Used to customize the \section command
+\titleformat{\section}{\large\bfseries\scshape\raggedright}{}{0em}{}[\titlerule] % Text formatting of sections
+\titlespacing{\section}{0pt}{2pt}{2pt} % Spacing around sections
+\usepackage{longtable}
+%\renewcommand{\small}{\normalsize}
+\makeatletter
+\newcommand\thefontsize[1]{{#1 The current font size is: \f@size pt\par}}
+\makeatother
+\begin{document}
+
+%\pagestyle{empty} % Removes page numbering
+
+\font\fb=''[cmr10]'' % Change the font of the \LaTeX command under the skills section
+
+%font size test --------------
+%\thefontsize\footnotesize
+%\thefontsize\normalsize
+%\thefontsize\large
+%----------------------------------
+
+
+
+
+%----------------------------------------------------------------------------------------
+%	NAME AND CONTACT INFORMATION
+%----------------------------------------------------------------------------------------
+
+\par{\centering{\Huge Weipu \textsc{Zhao}}\bigskip\par} % Your name
+
+%\section{Personal Data}
+\begin{center}
+\begin{tabular}{rll}
+%\textsc{Place and Date of Birth:} & China  | 26 November 1990 \\
+%\textsc{Address:} & Room 326 Build 17th, Tianjin University, Tianjin, China \\
+\textsc{Phone:}  +1 778-926-1096 & \textsc{email:}  \href{mailto:weipuz@sfu.ca}{weipuz@sfu.ca} &\textsc{Address:} 2451 W 18th Ave, Vancouver, BC, Canada \\
+\end{tabular}
+\end{center}
+
+%----------------------------------------------------------------------------------------
+%	COMPUTER SKILLS
+%----------------------------------------------------------------------------------------
+
+%\section{Summary of Skills}
+\section{SUMMARY OF SKILLS}
+\begin{tabular}{rl}
+Program language: & \textsc{C/C++}, \textsc{Python}, \textsc{Java}, \textsc{hadoop}, \textsc{Matlab}, Lab\textsc{view}, {\fb \LaTeX}, \textsc{php}, \textsc{html}\\
+Experienced area: & \textsc{Linux}, \textsc{ARM}, \textsc{Machine learning}, \textsc{Big Data}, \textsc{Natural Lang. Processing}, my\textsc{sql} \\
+
+%\setmainfont[SmallCapsFont=Fontin SmallCaps]{Fontin-Regular}
+\end{tabular}
+%----------------------------------------------------------------------------------------
+%	WORK EXPERIENCE
+%----------------------------------------------------------------------------------------
+
+
+%	Work exp
+%----------------------------------------------------------------------------------------
+\section{WORK EXPERIENCE}
+\textbf{Teaching Assistant of CMPT128}, \emph{Simon Fraser University,\small{ Burnaby, BC}} {\hfill\textbf{Sep 2014-Dec 2014}}\\
+\begin{tabular}{r|p{18cm}}
+
+%------------------------------------------------
+
+\textbullet & \small{Course name: Introduction to Computing Science for Engineer Students, from Dr. Janice Regan.}\\
+\textbullet & \small{Assistant the instructor in weekly C++/C programming Lab, responsible for answering questions of about 60 students during the lab.}\\
+\textbullet & \small{Testing the instructor's auto-grading software program in C++ for the course. Finished several grading tasks including two quizzes and two assignments on time.} \\
+%\multicolumn{2}{c}{} \\
+\end{tabular}
+
+
+\textbf{Software Engineer Intern}, \emph{BaianTek Co. LTD., \small{Shanghai,China}}{\hfill\textbf{Feb 2014-Jun 2014}}\\
+\begin{tabular}{r|p{18cm}}
+\textbullet & \small{Developed and optimized several engineering software modules in C++ under Visual Studio.}\\
+\textbullet & \small{Add specialized Spectrum analyze module in C++ to the existing Fiber Distributed Temperature sensing system(DTS) software monitoring software; Visual Studio develop and debug.} \\
+\textbullet & \small{Researched and developed the signal processing and classification algorithms and codes of the Fiber Distributed vibration sensing system(DVS).}\\
+\textbullet & \small{Re-develop the PC control software of Mini-EDFA under Labview on a very short deadline.}\\
+\end{tabular}
+%------------------------------------------------
+
+\textbf{Assistant Software Engineer}, \emph{Pipeline R\&D Center, \small{Langfang, Hebei, China}}{\hfill\textbf{Feb 2013-Sep 2013}}\\
+\begin{tabular}{r|p{18cm}}
+\textbullet& \small{Work at the Mechanical Automation Institute of PetroChina Pipeline R\&D center. Mainly responsible for the research of the pipeline leak detection software system.}\\
+\textbullet& \small{In charge of one cooperated project worth 400K CNY between my lab and the company. Design and implement novel algorithms to detect weak pipeline leak signals.}\\
+\textbullet& \small{Responsible for the integrate and implementation of the algorithms I designed to their systems in both Labview and C\# environments during the final stage of this project.}\\
+\textbullet& \small{Completed 6 monthly reports and one midterm evaluation report, finished software development documents on time and passed the final examination hold by the sponsor.}\\
+\end{tabular}
+
+
+
+\section{HIGHLIGHT PROJECT EXPERIENCE}
+
+\textbf{Python Implementation of Chinese-English Translation System}, {\hfill\textbf{Sep 2014-Dec 2014}} \\
+\begin{tabular}{r|p{18cm}}
+ & \small{\textbf{Keywords: Python, Statistic Machine Translation, Algorithm Implementation, Data processing;}}\\
+\textbullet & \small{ Course Proj. of Natural Lang. Process. Implemented python based chinese-english statistic machine translation system. Reading existing large corpus data and built model to decode the input Chinese sentences.}\\
+\textbullet & \small{Completed 5 mini-projects as split parts of a full MT system. Designed and implemented models for each task using Python. Every task scored top 5\% during in-class performances evaluation.}\\
+\textbullet & \small{Word as a group leader. Arrange 6 group meetings to facilitate collaborations during the process and make sure group members kept the deadlines. Get a grade of A in this course.}\\
+\end{tabular}
+
+
+\textbf{Build of Leak Monitor System Based on RTU}, {\hfill\textbf{Feb 2012-Nov 2012}} \\
+\begin{tabular}{r|p{18cm}}
+ & \small{\textbf{Keywords: Data communication, TCP/IP, RTU, Data acquisition, C, LABVIEW;}}\\
+\textbullet & \small{Established a Leak Monitor System use Remote Terminal Unit(RTU) and NI data acquisition (DAQ) board. Designed RTU to acquire and sent the pipe pressure data from upstream and downstream transport station to the center server in real-time in order to detect leak events.}\\
+\textbullet & \small{Employed ADAM PC-based Programmable Controller as RTU to replace PC and DAQ solution due to the space and power restrains in the field.} \\
+\textbullet & \small{Wrote C codes to program the RTU to pack and send field data to center server via TCP/IP. Defined data transmit protocols to pack and unpack pressure signals. Implemented Labview programs in the center.}\\
+\textbullet & \small{Drafted user manuals of the hardware and software for the user. Passed final evaluation.}\\
+\end{tabular}
+
+
+\newpage
+\par{\centering{\Huge Weipu \textsc{Zhao}}\bigskip\par} % Your name
+%\section{Personal Data}
+
+\section{OTHER RESEARCH EXPERIENCE}
+
+
+
+\textbf{Map-Reduce implementation of Find Frequent Itemsets}, \emph{\small{Course Proj. of DataMining}}  {\hfill\textbf{Sep 2014-Dec 2014}}\\
+\begin{tabular}{r|p{18cm}}
+ & \small{\textbf{Keywords: Hadoop, Java, map-reduce, Linux script, association rule;}}\\
+\textbullet & \small{Implemented java based map-reduce program to find frequent itemsets in transaction database. Designed two map-reduce function as implementation of SON algorithm.}\\
+\textbullet & \small{Novelly override the default inputformat class and make it more suitable for this application. The program is running smoothly and get full credit in the project and get A in the final grade.}\\
+\end{tabular}
+
+
+
+%
+%\emph{Current} & 1\textsuperscript{st} year Analyst at \textsc{Lehman Brothers}, London \\
+\textbf{Pipeline Fault Detection Algorithm Design}, \emph{ Master's Thesis}{\hfill\textbf{Nov 2012-Apr 2013}}\\
+\begin{tabular}{r|p{18cm}}
+ & \small{\textbf{Keywords: Digital signal processing, feature extraction, artificial neural network, MATLAB, LABVIEW;}}\\
+\textbullet & \small{Research on a novel scheme to detect and locate the small leak occurred in oil pipeline.}\\
+\textbullet & \small{Developed a novel algorithm to detect the abrupt change of pressure signal by extracting designed features and BP neural network classifier to distinguish leak signals from normal signals.}\\
+\textbullet & \small{Designed dynamic programming algorithm to speed up search process of the estimated change time of signal. Improved the accuracy of traditional leak locate method by 10\%.}\\
+\end{tabular}
+%------------------------------------------------
+
+
+
+%------------------------------------------------
+\textbf{Research on the Determination of Metal Corrosion Types}, {\hfill\textbf{Dec 2012-Mar 2013}}\\
+ \begin{tabular}{r|p{18cm}}
+ & \small{\textbf{Keywords: Pattern Recognition, Neural network, Support vector machine, MATLAB;}}\\
+\textbullet & \small{Co-worked project aimed to detect the metal corrosion types using electrochemical noise. Employed BP artificial neural network and support vector machine as two kinds of machine learning methods to classify three typical metal corrosion types. Ten representative features of electrochemical noise were extracted as the feature vector.}\\
+\textbullet & \small{Mainly responsible for the design of classifier. Use a 300-size data set contains 100 samples of each type to design and test the BP-NN and SVM classifier. The classification performance of BP and SVM was compared.}\\
+\end{tabular}
+
+
+\textbf{Design of an Automatic underwater Smart Sensor Platform}, \emph{ Bachelor's Thesis}{\hfill\textbf{Dec 2010-Jul 2011}} \\
+\begin{tabular}{r|p{18cm}}
+ & \small{\textbf{Keywords:Embedded system design, C, PID control, circuits design;}}\\
+\textbullet & \small{Built an ``\emph{Automatic Underwater Sensor Platform}'' to detect the parameters of liquid environment with sensors.}\\
+\textbullet & \small{Wrote code of embedded systems in C, designed interface circuits for sensors and motors. Designed and tested for suitable solution of close-loop control system. }\\
+
+%------------------------------------------------
+
+\end{tabular}
+
+
+
+\begin{comment}
+\multicolumn{2}{c}{} \\
+%------------------------------------------------
+
+\textsc{Dec 2010-Jul 2011} & Design of an Automatic underwater Smart Sensor, \emph{Bachelor's Thesis}\\
+\small{\textsc{Keywords:}} & \small{Embedded system design, C coding, PID control, circuits design;}\\
+& \small{Design of an ``\emph{Automatic Underwater Ball}'' which could detect the parameters (pressure, temperature, etc.) of liquid environment with corresponding sensors. Responsible for the design of embedded systems software and interface circuits, e.g.: close-loop control system design, test of suitable solutions of controlling system, motor control circuits design.}\\
+\multicolumn{2}{c}{} \\
+
+%------------------------------------------------
+
+\textsc{Jul 2009-Dec 2009} & Design of an Automatic Trailing Robot \emph{}\\
+& \small{Design and manufacture a robot capable of trailing as well as identifying and carrying objects automatically. Prepared an overall plan, designed and manufacture the system, co-developped the control program written in C. Got the top 10\% prize in the University Robot Competition .}
+
+
+
+
+
+\newpage
+\par{\centering{\Huge Weipu \textsc{Zhao}}\bigskip\par} % Your name
+\begin{center}
+\begin{tabular}{rl}
+%\textsc{Place and Date of Birth:} & China  | 26 November 1990 \\
+%\textsc{Address:} & Room 326 Build 17th, Tianjin University, Tianjin, China \\
+\textsc{Phone:}  +1 778-926-1096 & \textsc{email:}  \href{mailto:weipuz@sfu.ca}{weipuz@sfu.ca}
+\end{tabular}
+\end{center}
+\end{comment}
+
+\section{EDUCATION}
+\textbf{Master of Science, Simon Fraser University}, Vancouver, BC {\hfill\textbf{Sep 2014-Present}} \\
+\begin{tabular}{rl}	
+& Major: Computer Science in Big Data, \textsc{Gpa}: 4.0\\
+%\small{Course Taken:} & CMPT726 \emph{Machine Learning \small{Greg Mori, Grade: A},} \emph{CMPT741 Data Mining,} \small{Ke Wang, Grade: A} \\
+%& CMPT825 \emph{Natural Lang. Process,} \small{Anoop Sarker, Grade: A} \\
+ & \small{Spring 2015 Course:} CMPT732 \emph{Programming for Big Data}, CMPT886 \emph{Operating System in Big Data} \\
+\end{tabular}
+
+%%&\normalsize \textsc{Gpa}: 3.3/4.0 \hyperlink{grds}{\hfill | \small Major Courses}\\
+\textbf{Master of Engineering, Tianjin University}, Tianjin, China {\hfill\textbf{Sep 2011-Jan 2014}} \\
+\begin{tabular}{rl}	
+& Major: Instrument Science and Technology, \small{Chinese State Key Lab of \emph{Precision Testing Technology and Instruments}}\\
+& \small{Thesis: \emph{The study of oil pipeline weak leak detection and location based on pressure and flow signals}}\\
+\end{tabular}
+
+%%&\normalsize \textsc{Gpa}: 3.3/4.0 \hyperlink{grds}{\hfill | \small Major Courses}\\
+%------------------------------------------------
+\textbf{Bachelor of Engineering, Tianjin University}, Tianjin, China {\hfill\textbf{Sep 2007-Jul 2011}}
+%------------------------------------------------
+%----------------------------------------------------------------------------------------
+%	Papers
+%----------------------------------------------------------------------------------------
+
+\section{PAPERS}
+\begin{tabular}{rp{16.3cm}}
+Co-author & Determination of Corrosion Types from Electrochemical Noise by Artificial Neural Networks. \\
+& \small{\emph{Int. J. Electrochem. Sci, 2013, 8: 2365-2377}.}   {\hfill \small{Science Citation Index}}\\
+First author &  Method for Pipe Leak Detection and Location based on Model Change Detection. \\
+& \small{\emph{World Sci-tech R \& D(in Chinese)} 36.3 (2014): 247r252.} {\hfill \small{doi: 10.3969/j.issn.1006-6055.2014.03.007}}\\
+\end{tabular}
+
+
+
+%----------------------------------------------------------------------------------------
+%	SCHOLARSHIPS AND ADDITIONAL INFO
+%----------------------------------------------------------------------------------------
+
+\section{AWARDS}
+
+\begin{tabular}{rp{18cm}}
+\textbullet & National Graduate Scholarship Second Prize (Top 10\%) {\hfill\textsc{Sep 2011- Jul 2013} }\\
+\textbullet & The 12\textsuperscript{th} National Undergraduate academic contest\emph{"Challenge Cup"} \textsc{special prize} (Top 5\%){\hfill\textsc{May 2011}}\\ %%\hyperlink{ccup}{\hfill | Link}\normalsize\\
+\textbullet & Annual merit Student of Tianjin University (Top 10\%) {\hfill\textsc{Sep 2008-Sep 2011}}\\
+\textbullet & Tianjin University Robot Competition First Prize (Top 10\%){\hfill\textsc{Dec 2009}}\\
+%\textsc{Jun 2010} & {\textsc{Gre}\textregistered}\setmainfont[SmallCapsFont=Fontin SmallCaps]{Fontin-Regular}: 730 (\textsc{q:50;v:39}) 96\textsuperscript{th} percentile; \textsc{awa}: 6.0/6.0 (89\textsuperscript{th} percentile)
+
+\end{tabular}
+
+
+
+\end{document}
+
+%----------------------------------------------------------------------------------------
+%	INTERESTS AND ACTIVITIES
+%----------------------------------------------------------------------------------------
+
+%\section{Merits}
+
+%Logical Thinking || Quick Learner || Curiosity || Team Worker || Strong Responsibility || Positive\\
+
+%----------------------------------------------------------------------------------------
+\begin{comment}
+\newpage
+
+%----------------------------------------------------------------------------------------
+%	GRADE TABLES
+%----------------------------------------------------------------------------------------
+
+\par{\centering\Large \hypertarget{grds}{Master of Engineering in \textsc{Instrument Science}}\par}\large{\centering Major Courses Grades\par}\normalsize
+
+\begin{center}
+\begin{tabular}{lcc}
+\multicolumn{1}{c}{\textsc{Exam}} & \textsc{Credit}&\textsc{Grade}\\ \hline
+Advanced Physics & 4 & 90\\
+Applied Statistics & 2 & 85\\
+Computer Vision and its Application & 2 & 89\\
+Digital Image Processing & 2 & 85\\
+Modelling and Processing of Dynamic Data & 2 & 95\\
+Measuring Signals Processing & 2 & 85\\
+Design and Application of Programmable ASIC & 2 & 87\\
+
+
+& \\\cline{2-3}
+&\textsc{Gpa}&\textbf{88.25}
+\end{tabular}
+\end{center}
+\bigskip
+\hrule
+\bigskip
+
+%------------------------------------------------
+
+\bigskip
+
+\par{\centering\Large \hypertarget{grds_under}{Bachelor of Engineering in \textsc{Measuring \& Control Technology}} \par}\large{\centering Major courses Grades\par}\normalsize
+
+\begin{center}
+\begin{tabular}{lcc}
+\multicolumn{1}{c}{\textsc{Exam}} & \textsc{Credit} & \textsc{Grade}\\
+\hline
+
+C++ and Data Structure \textsuperscript{$\star$} & 5 & 80\\
+Practice of C++ Programming & 1.0 & 84\\
+Principles of Microcomputer & 3.5 & 91\\
+Practice of Microcomputer & 1.0 & 100\\
+Visual Basic Programming & 2.5 & 86\\
+Embedded System Technology & 2 & 89\\
+Computer-Aided Design & 1.5 & 84\\
+Basic of Programmable Controller & 2 & 98\\
+\\
+Probability Theory \& Mathematic Statistics & 3 & 96\\
+College Physics \textsuperscript{$\star$} & 8 & 89\\
+Advanced Mathematics \textsuperscript{$\star$} & 11 & 73\\
+Basic of Circuit & 4 & 82\\
+Basic of Analog Electronic Technology & 4 & 92\\
+Basic of Digital Electronic Technology & 4 & 94\\
+
+Signal and System & 3.5 & 98\\
+Digital Signal Processing & 2 & 85\\
+Digital Signal Processer & 1.5 & 81\\
+Control System Engineering & 1.5 & 90\\
+Engineering Optics \textsuperscript{$\star$} & 5 & 91\\
+Basis of Precision Testing & 3 & 89\\
+Measurement \& Control Circuit & 3.5 & 93\\
+Graduation Thesis & 12 & 88\\
+& &\\\cline{2-3}
+& \textsc{Gpa} & \textbf{86.75}\\
+
+
+\end{tabular}
+\\
+{$\star$} \small{This course was divided into several parts and each has separate grade. The grade here is the average of all }
+\end{center}
+\bigskip
+\hrule
+\bigskip
+%----------------------------------------------------------------------------------------
+\bigskip
+
+\par{\centering\Large \hypertarget{ccup}{Project Website in \textsc{"Challenge Cup"}(in Chinese)}\par}%\large{\centering Grades\par}\normalsize
+
+\begin{center}
+\begin{tabular}{lcc}
+\url{http://www.tiaozhanbei.net/project/11293/}
+\end{tabular}
+\end{center}
+\end{comment}
+
+
