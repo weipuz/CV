@@ -95,10 +95,36 @@
 %\section{Summary of Skills}
 \section{SUMMARY OF SKILLS}
 \begin{tabular}{rl}
-Program language: & \textsc{C/C++}, \textsc{Python}, \textsc{Java}, \textsc{hadoop}, \textsc{Matlab}, Lab\textsc{view}, {\fb \LaTeX}, \textsc{php}, \textsc{html}\\
-Experienced area: & \textsc{Linux}, \textsc{ARM}, \textsc{Machine learning}, \textsc{Big Data}, \textsc{Natural Lang. Processing}, my\textsc{sql} \\
+Program skills: & \textsc{Python}, \textsc{Java}, \textsc{C/C++}, \textsc{hadoop}, \textsc{Matlab}, Lab\textsc{view}, {\fb \LaTeX}, \textsc{php}, \textsc{html}\\
+Experienced area: & \textsc{Machine learning}, \textsc{Big Data}, \textsc{Natural Lang. Processing}, \textsc{Linux}, \textsc{ARM}, my\textsc{sql}\\
 
 %\setmainfont[SmallCapsFont=Fontin SmallCaps]{Fontin-Regular}
+\end{tabular}
+
+
+
+\section{HIGHLIGHT PROJECT EXPERIENCE}
+
+\textbf{Python Implementation of Chinese-English Translation System}, {\hfill\textbf{Sep 2014-Dec 2014}} \\
+\begin{tabular}{r|p{18cm}}
+ & \small{\textbf{Keywords: Python, Statistic Machine Translation, Algorithm Implementation, Data processing;}}\\
+\textbullet & \small{Implemented python based Chinese-English machine translation system as Course Proj. of Natural Language Process which can read large dictionary data and decode the input Chinese sentences with designed statistic model}\\
+\textbullet & \small{Led a group of 4 completed 5 mini-projects as split parts of a full MT system which all involved design and implementation of models in Python and scored top 5\% during in-class performances evaluation}\\
+\textbullet & \small{Facilitated group collaborations during the process by arranging group meetings and keeping individual tasks on track to meet the deadline, got A in final grade}\\
+\end{tabular}
+
+\textbf{Map-Reduce implementation of Find Frequent Itemsets}, \emph{\small{Course Proj. of DataMining}}  {\hfill\textbf{Sep 2014-Dec 2014}}\\
+\begin{tabular}{r|p{18cm}}
+ & \small{\textbf{Keywords: Hadoop, Java, map-reduce, Linux script, association rule;}}\\
+\textbullet & \small{Implemented java based map-reduce program to find frequent itemsets in transaction database by designing two phase map-reduce functions as implementation of SON algorithm}\\
+\textbullet & \small{Creatively designed customized NLinesRecordReader class for this application in order to read several lines as one record for map function}\\
+\textbullet & \small{Led a team of two successfully with smooth and efficient accomplishment of the goal and get full credit in the project}\\
+\end{tabular}
+
+\textbf{Human Activity Recognition Using AdaBoostM1 }, \emph{\small{Course Proj. of Machine Learning}}  {\hfill\textbf{Sep 2014-Dec 2014}}\\
+\begin{tabular}{r|p{18cm}}
+\textbullet & \small{Experimented with C4.5 decision tree based AdaBoost.M1 algorithm in HAR using smartphone sensor data.}\\
+\textbullet & \small{Employed Correlation-Based Feature Selection algorithm to reduce computation complexity with minimum loss in accuracy. Proved the powerfulness of AdaBoost with outperformed accuracy of 93\%. Get A in final grade.}\\
 \end{tabular}
 %----------------------------------------------------------------------------------------
 %	WORK EXPERIENCE
@@ -139,41 +165,23 @@ Experienced area: & \textsc{Linux}, \textsc{ARM}, \textsc{Machine learning}, \te
 
 
 
-\section{HIGHLIGHT PROJECT EXPERIENCE}
 
-\textbf{Python Implementation of Chinese-English Translation System}, {\hfill\textbf{Sep 2014-Dec 2014}} \\
-\begin{tabular}{r|p{18cm}}
- & \small{\textbf{Keywords: Python, Statistic Machine Translation, Algorithm Implementation, Data processing;}}\\
-\textbullet & \small{ Course Proj. of Natural Lang. Process. Implemented python based chinese-english statistic machine translation system. Reading existing large corpus data and built model to decode the input Chinese sentences.}\\
-\textbullet & \small{Completed 5 mini-projects as split parts of a full MT system. Designed and implemented models for each task using Python. Every task scored top 5\% during in-class performances evaluation.}\\
-\textbullet & \small{Word as a group leader. Arrange 6 group meetings to facilitate collaborations during the process and make sure group members kept the deadlines. Get a grade of A in this course.}\\
-\end{tabular}
-
-
-\textbf{Build of Leak Monitor System Based on RTU}, {\hfill\textbf{Feb 2012-Nov 2012}} \\
-\begin{tabular}{r|p{18cm}}
- & \small{\textbf{Keywords: Data communication, TCP/IP, RTU, Data acquisition, C, LABVIEW;}}\\
-\textbullet & \small{Established a Leak Monitor System use Remote Terminal Unit(RTU) and NI data acquisition (DAQ) board. Designed RTU to acquire and sent the pipe pressure data from upstream and downstream transport station to the center server in real-time in order to detect leak events.}\\
-\textbullet & \small{Employed ADAM PC-based Programmable Controller as RTU to replace PC and DAQ solution due to the space and power restrains in the field.} \\
-\textbullet & \small{Wrote C codes to program the RTU to pack and send field data to center server via TCP/IP. Defined data transmit protocols to pack and unpack pressure signals. Implemented Labview programs in the center.}\\
-\textbullet & \small{Drafted user manuals of the hardware and software for the user. Passed final evaluation.}\\
-\end{tabular}
 
 
 \newpage
 \par{\centering{\Huge Weipu \textsc{Zhao}}\bigskip\par} % Your name
 %\section{Personal Data}
-
+\begin{center}
+\begin{tabular}{rll}
+%\textsc{Place and Date of Birth:} & China  | 26 November 1990 \\
+%\textsc{Address:} & Room 326 Build 17th, Tianjin University, Tianjin, China \\
+\textsc{Phone:}  +1 778-926-1096 & \textsc{email:}  \href{mailto:weipuz@sfu.ca}{weipuz@sfu.ca} &\textsc{Address:} 2451 W 18th Ave, Vancouver, BC, Canada \\
+\end{tabular}
+\end{center}
 \section{OTHER RESEARCH EXPERIENCE}
 
 
 
-\textbf{Map-Reduce implementation of Find Frequent Itemsets}, \emph{\small{Course Proj. of DataMining}}  {\hfill\textbf{Sep 2014-Dec 2014}}\\
-\begin{tabular}{r|p{18cm}}
- & \small{\textbf{Keywords: Hadoop, Java, map-reduce, Linux script, association rule;}}\\
-\textbullet & \small{Implemented java based map-reduce program to find frequent itemsets in transaction database. Designed two map-reduce function as implementation of SON algorithm.}\\
-\textbullet & \small{Novelly override the default inputformat class and make it more suitable for this application. The program is running smoothly and get full credit in the project and get A in the final grade.}\\
-\end{tabular}
 
 
 
@@ -181,7 +189,7 @@ Experienced area: & \textsc{Linux}, \textsc{ARM}, \textsc{Machine learning}, \te
 %\emph{Current} & 1\textsuperscript{st} year Analyst at \textsc{Lehman Brothers}, London \\
 \textbf{Pipeline Fault Detection Algorithm Design}, \emph{ Master's Thesis}{\hfill\textbf{Nov 2012-Apr 2013}}\\
 \begin{tabular}{r|p{18cm}}
- & \small{\textbf{Keywords: Digital signal processing, feature extraction, artificial neural network, MATLAB, LABVIEW;}}\\
+ & \small{\textbf{Keywords: Digital signal process, feature extraction, Neural Network, MATLAB, LABVIEW;}}\\
 \textbullet & \small{Research on a novel scheme to detect and locate the small leak occurred in oil pipeline.}\\
 \textbullet & \small{Developed a novel algorithm to detect the abrupt change of pressure signal by extracting designed features and BP neural network classifier to distinguish leak signals from normal signals.}\\
 \textbullet & \small{Designed dynamic programming algorithm to speed up search process of the estimated change time of signal. Improved the accuracy of traditional leak locate method by 10\%.}\\
@@ -193,20 +201,19 @@ Experienced area: & \textsc{Linux}, \textsc{ARM}, \textsc{Machine learning}, \te
 %------------------------------------------------
 \textbf{Research on the Determination of Metal Corrosion Types}, {\hfill\textbf{Dec 2012-Mar 2013}}\\
  \begin{tabular}{r|p{18cm}}
- & \small{\textbf{Keywords: Pattern Recognition, Neural network, Support vector machine, MATLAB;}}\\
+ & \small{\textbf{Keywords: Pattern Recognition, Neural network, SVM, MATLAB;}}\\
 \textbullet & \small{Co-worked project aimed to detect the metal corrosion types using electrochemical noise. Employed BP artificial neural network and support vector machine as two kinds of machine learning methods to classify three typical metal corrosion types. Ten representative features of electrochemical noise were extracted as the feature vector.}\\
 \textbullet & \small{Mainly responsible for the design of classifier. Use a 300-size data set contains 100 samples of each type to design and test the BP-NN and SVM classifier. The classification performance of BP and SVM was compared.}\\
 \end{tabular}
 
 
-\textbf{Design of an Automatic underwater Smart Sensor Platform}, \emph{ Bachelor's Thesis}{\hfill\textbf{Dec 2010-Jul 2011}} \\
+\textbf{Build of Leak Monitor System Based on RTU}, {\hfill\textbf{Feb 2012-Nov 2012}} \\
 \begin{tabular}{r|p{18cm}}
- & \small{\textbf{Keywords:Embedded system design, C, PID control, circuits design;}}\\
-\textbullet & \small{Built an ``\emph{Automatic Underwater Sensor Platform}'' to detect the parameters of liquid environment with sensors.}\\
-\textbullet & \small{Wrote code of embedded systems in C, designed interface circuits for sensors and motors. Designed and tested for suitable solution of close-loop control system. }\\
-
-%------------------------------------------------
-
+ & \small{\textbf{Keywords: Data communication, TCP/IP, RTU, Data acquisition, C, LABVIEW;}}\\
+\textbullet & \small{Established a Leak Monitor System use Remote Terminal Unit(RTU) and NI data acquisition (DAQ) board. Designed RTU to acquire and sent the pipe pressure data from upstream and downstream transport station to the center server in real-time in order to detect leak events.}\\
+\textbullet & \small{Employed ADAM PC-based Programmable Controller as RTU to replace PC and DAQ solution due to the space and power restrains in the field.} \\
+\textbullet & \small{Wrote C codes to program the RTU to pack and send field data to center server via TCP/IP. Defined data transmit protocols to pack and unpack pressure signals. Implemented Labview programs in the center.}\\
+\textbullet & \small{Drafted user manuals of the hardware and software for the user. Passed final evaluation.}\\
 \end{tabular}
 
 
